@@ -26,17 +26,7 @@ Site institucional estático para a Futura Serviços Mecânicos, com foco em man
 
 ## Como abrir localmente
 
-Abra `index.html` diretamente no navegador ou rode o servidor local:
-
-```powershell
-node tools/local-server-3000.cjs
-```
-
-Depois acesse:
-
-```text
-http://127.0.0.1:3000/
-```
+Abra `index.html` diretamente no navegador ou rode um servidor estático local na pasta do projeto.
 
 ## Contato
 
