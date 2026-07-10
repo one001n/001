@@ -3,74 +3,40 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Futura Serviços Mecânicos | Mecânica Pesada em Rondonópolis</title>
-    <meta name="description" content="Futura Serviços Mecânicos: manutenção mecânica, elétrica, eletrônica e diagnóstico computadorizado de máquinas pesadas em Rondonópolis, MT.">
-    <meta name="robots" content="index, follow">
-    <meta name="theme-color" content="#080808">
-    <meta name="format-detection" content="telephone=yes">
-    <link rel="canonical" href="https://futuramec.com.br/">
-
+    <title>Futura Serviços Mecânicos</title>
     <script>
       if ("scrollRestoration" in history) {
         history.scrollRestoration = "manual";
       }
 
-      if (location.hash) {
-        history.replaceState(null, "", location.pathname + location.search);
+      if (!location.hash) {
+        scrollTo(0, 0);
       }
-
-      scrollTo(0, 0);
     </script>
-
+    <meta
+      name="description"
+      content="Manutenção de máquinas pesadas em Rondonópolis, MT. Solicite seu orçamento com a Futura Serviços Mecânicos."
+    >
+    <link rel="canonical" href="https://futuramec.com.br/">
+    <meta name="theme-color" content="#f4b400">
+    <meta property="og:title" content="Futura Serviços Mecânicos">
+    <meta property="og:description" content="Manutenção mecânica, elétrica, eletrônica e diagnóstico computadorizado para máquinas pesadas em Rondonópolis, MT.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://futuramec.com.br/">
+    <meta property="og:image" content="https://futuramec.com.br/assets/images/hero/oficina-mecanica-pesada.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" as="image" href="assets/images/hero/oficina-mecanica-pesada.jpg">
-    <link rel="icon" href="/favicon.ico" sizes="any">
-    <link rel="icon" type="image/png" sizes="48x48" href="/assets/images/brand/favicon-48x48.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/brand/favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/brand/apple-touch-icon.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="pt_BR">
-    <meta property="og:site_name" content="Futura Serviços Mecânicos">
-    <meta property="og:title" content="Futura Serviços Mecânicos | Mecânica Pesada em Rondonópolis">
-    <meta property="og:description" content="Manutenção mecânica, elétrica, eletrônica e diagnóstico computadorizado de máquinas pesadas.">
-    <meta property="og:url" content="https://futuramec.com.br/">
-    <meta property="og:image" content="https://futuramec.com.br/assets/images/brand/icon-192.png">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Futura Serviços Mecânicos">
-    <meta name="twitter:description" content="Mecânica pesada, serviços eletrônicos e diagnóstico computadorizado em Rondonópolis.">
-    <meta name="twitter:image" content="https://futuramec.com.br/assets/images/brand/icon-192.png">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/brand/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="assets/images/brand/favicon-48x48.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/brand/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
     <link
-      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     >
     <link rel="stylesheet" href="assets/css/styles.css">
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "AutoRepair",
-        "name": "Futura Serviços Mecânicos",
-        "url": "https://futuramec.com.br/",
-        "logo": "https://futuramec.com.br/assets/images/brand/icon-192.png",
-        "image": "https://futuramec.com.br/assets/images/hero/oficina-mecanica-pesada.jpg",
-        "telephone": "+5566996879153",
-        "email": "magno_pesadas@hotmail.com",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "R. Mário Mendes de Albuquerque",
-          "addressLocality": "Rondonópolis",
-          "addressRegion": "MT",
-          "postalCode": "78705-602",
-          "addressCountry": "BR"
-        },
-        "areaServed": "Rondonópolis, MT",
-        "priceRange": "$$",
-        "sameAs": [
-          "https://wa.me/5566996879153"
-        ]
-      }
-    </script>
     <script src="assets/js/site.js" defer></script>
   </head>
   <body>
@@ -85,6 +51,7 @@
 
       <nav class="site-nav" aria-label="Menu principal">
         <a href="#servicos">Serviços</a>
+        <a href="servicos-realizados.html">Realizados</a>
         <a href="#diferenciais">Diferenciais</a>
         <a href="#contato">Contato</a>
       </nav>
@@ -106,6 +73,9 @@
             </a>
             <a class="button button-secondary" href="tel:+5566996879153">
               Ligar agora
+            </a>
+            <a class="button button-secondary" href="servicos-realizados.html">
+              Serviços realizados
             </a>
           </div>
         </div>
@@ -154,6 +124,23 @@
             <p>Leitura de falhas pelo computador.</p>
           </article>
         </div>
+      </section>
+
+      <section class="section completed-work completed-work-teaser" id="realizados">
+        <div class="section-heading">
+          <p class="eyebrow">Serviços realizados</p>
+          <h2>Trabalhos feitos com cuidado técnico</h2>
+        </div>
+
+        <article class="work-teaser-card">
+          <img src="assets/images/servicos/reforma-pa-carregadeira/depois/depois-01.jpg" alt="Pá carregadeira Case depois da reforma" loading="lazy" decoding="async">
+          <div>
+            <span class="work-badge">Antes e depois</span>
+            <h3>Serviços Realizados</h3>
+            <p>Veja alguns trabalhos executados pela Futura Mecânica em máquinas pesadas, motores, transmissões, câmbios e geradores.</p>
+            <a class="button button-primary" href="servicos-realizados.html">Ver serviços realizados</a>
+          </div>
+        </article>
       </section>
 
       <section class="section split" id="diferenciais">
