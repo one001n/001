@@ -17,6 +17,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -24,6 +25,7 @@ body {
   color: var(--text);
   font-family: "Inter", Arial, sans-serif;
   background: var(--black);
+  overflow-x: hidden;
 }
 
 a {
@@ -732,9 +734,18 @@ h3 {
     gap: 14px;
   }
 
+  .brand {
+    min-width: 0;
+  }
+
+  .header-call {
+    white-space: normal;
+  }
+
   .site-nav {
     order: 3;
     width: 100%;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 
@@ -805,6 +816,12 @@ h3 {
   .site-nav {
     gap: 10px;
     font-size: 12px;
+    justify-content: flex-start;
+  }
+
+  .brand-logo {
+    width: 46px;
+    height: 46px;
   }
 
   h1 {
